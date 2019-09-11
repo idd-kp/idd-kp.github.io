@@ -41,6 +41,7 @@ a{
 
 li :hover{
 	background-color: #1f65a4;
+	border-radius: 30px;
 }
 
 p{
