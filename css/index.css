@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Nunito:700&display=swap');
 body{
 	font-family: 'Quicksand';
 }
@@ -7,10 +7,11 @@ header {
 	background-color: #6187b8;
 	text-align: center;
 	color: white;
+	border-radius: 30px;
 
 }
 
-ul{
+header ul { 
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 	grid-column-gap: 1em;
@@ -19,14 +20,16 @@ ul{
 	background-color: #6187b8;
 	padding: 1.5em;
 	list-style: none;
+	border-radius:30px;
 }
 
-li {
+header li {
 
+	list-style: none;
 	color: white;
 }
 
-li a {
+header li a {
   display: block;
   color: white;
   text-align: center;
@@ -39,13 +42,100 @@ a{
 	color: white;
 }
 
-li :hover{
+header li :hover{
 	background-color: #1f65a4;
 	border-radius: 30px;
 }
 
-p{
+nav p{
 	font-size: 1.1em;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	text-align: center;
+}
+p{
+	font-size: 1.1em;
+	margin-top: 0;
+	margin-bottom: 2em;
+	
+}
+ img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+border-radius: 15px;
+}
+
+h4{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.apply{
+	color: white;
+	font-size: .8em;
+	background-color: #6187b8;
+	width: 30%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  border-radius: 50px;
+  padding: 1px;
+	
+}
+
+.apply :hover{
+	cursor: pointer;
+	
+
+}
+
+footer{
+	margin-top: 1em;
+	padding-top: 3em;
+	color: white;
+	background-color: #6187b8;
+	border-radius: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+footer img{
+	cursor: pointer;
+}
+
+@media (max-width: 1084px) {
+	header ul { 
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr  ;
+		grid-column-gap: 1em;
+		margin-top: 2em;
+		text-align: center;
+		background-color: #6187b8;
+		padding: 1.5em;
+		list-style: none;
+		border-radius:30px;
+	}	
+}
+
+h5{
+	font-family: 'Nunito';
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+	margin-top:1em; 
+}
+
+.overview{
+	color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center
+
+}
+
+li{
+	list-style: none;
 }
