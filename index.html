@@ -11,7 +11,10 @@
     <h3>George Brown College</h3>
 
       <h1>Interaction Design and Development (G103)</h1>
-      <h2>~ 2019-2020 ~</h2>
+      <fieldset>
+          <label for="Search">Search:</label>
+          <input type="text" name="search" id="search" placeholder="Search">
+        </fieldset>
 
       <ul class="navbar">
         <li><a href="index.html">Overview</a></li>
@@ -44,6 +47,22 @@
 
 
 </nav>
+
+<form>
+    <fieldset>
+      <legend style="font-family: nunito">Select Your Year of Study </legend>
+  
+      <input type="radio" id="2019" name="year">
+      <label for="2019">2019-2020</label><br/>
+  
+      <input type="radio" id="2020" name="year">
+      <label for="2020">2020-2021</label><br/>
+  
+      <input type="radio" id="2021" name="year">
+      <label for="2021">2021-2022</label>
+    </fieldset>
+  </form>
+
 <ul class="overview">
 <li>
   <h5>Program Name</h5>
@@ -90,6 +109,8 @@
   <p>Optional Field Placement</p>
 </li>
 </ul>
+
+
 
 <img src="img/college.jpeg" alt="" style="max-width: 99%; max-height: 99%;">
 
