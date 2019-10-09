@@ -160,3 +160,11 @@ form{
 	border-color: black;
 }
 
+.welcome{
+	position: relative;
+}
+
+.gbclogo{
+	position: absolute;
+	z-index: 99999;
+}
